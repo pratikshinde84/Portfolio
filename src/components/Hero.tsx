@@ -50,14 +50,6 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center animate-fade-in-up">
-          <div className="mb-8">
-            <div className="w-48 h-48 mx-auto rounded-full glass-card p-2 glow-effect animate-float">
-              <div className="w-full h-full rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-6xl font-bold">
-                YN
-              </div>
-            </div>
-          </div>
-
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             Hi, I'm <span className="text-gradient">Your Name</span>
           </h1>
