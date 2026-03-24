@@ -2,29 +2,23 @@ import { GraduationCap, Award, Code2, Calendar } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Code2, label: "Years Experience", value: "2+" },
-    { icon: Award, label: "Projects Completed", value: "15+" },
-    { icon: GraduationCap, label: "Certifications", value: "8+" },
+    { icon: Code2, label: "Months Experience", value: "4+" },
+    { icon: Award, label: "Projects Completed", value: "10+" },
+    { icon: GraduationCap, label: "Certifications", value: "5+" },
   ];
 
   const timeline = [
     {
-      year: "2024",
-      title: "Bachelor's in Computer Science",
-      institution: "Your University Name",
-      description: "Currently pursuing degree with focus on Software Engineering and AI",
+      year: "2021-2024 (CGPA: 9.1)",
+      title: "Diploma in Computer Science",
+      institution: "Government Polytechnic Chhatrapati Sambhajinagar",
+      description: "Pursued a diploma with a focus on software development and practical applications.",
     },
     {
-      year: "2023",
-      title: "Android Development Certification",
-      institution: "Online Platform",
-      description: "Completed comprehensive Android development bootcamp",
-    },
-    {
-      year: "2022",
-      title: "Started Coding Journey",
-      institution: "Self-taught",
-      description: "Began learning programming with C and Java",
+      year: "2024-2027 (CGPA: 9.3)",
+      title: "Bachelor's in Information Technology",
+      institution: "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded",
+      description: "Currently pursuing a bachelor's degree to deepen my knowledge in IT and software engineering.",
     },
   ];
 

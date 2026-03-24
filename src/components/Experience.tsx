@@ -3,44 +3,44 @@ import { Briefcase, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Development Intern",
-      company: "Tech Company Name",
+      title: "Android Development Intern",
+      company: "Mountreach Solutions Pvt. Ltd.",
       location: "Remote",
-      period: "June 2024 - Present",
+      period: "Sept 2024 - Dec 2024",
       description: [
-        "Developed and maintained Android applications using Java and Kotlin",
+        "Developed and maintained Android applications using Java",
         "Collaborated with cross-functional teams to implement new features",
         "Improved app performance by 30% through code optimization",
         "Participated in code reviews and agile development processes",
       ],
-      technologies: ["Android", "Java", "Kotlin", "Firebase"],
+      technologies: ["Android", "Java", "Postman", "Firebase"],
     },
     {
-      title: "Web Development Intern",
-      company: "Startup Name",
-      location: "City, India",
-      period: "Jan 2024 - May 2024",
+      title: "Java Developer Intern",
+      company: "Codenova Solutions",
+      location: "Pune, India",
+      period: "Jan 2026 - Mar 2026",
       description: [
-        "Built responsive web applications using React and Node.js",
-        "Implemented RESTful APIs and integrated with MongoDB database",
-        "Worked on UI/UX improvements based on user feedback",
-        "Contributed to documentation and testing processes",
+        "Built a secure web application using Spring Boot and Spring Security",
+        "Developed RESTful APIs (GET, POST, PUT, DELETE) for client–server communication",
+        "Implemented input validation, exception handling, and role-based access control",
+        "Integrated MongoDB for data storage and optimized backend performance"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+      technologies: ["React", "Spring", "Java", "Mysql"],
     },
-    {
-      title: "Freelance Developer",
-      company: "Self-Employed",
-      location: "Remote",
-      period: "2023 - Present",
-      description: [
-        "Developed custom mobile and web solutions for local businesses",
-        "Managed complete project lifecycle from requirements to deployment",
-        "Provided technical consultation and support to clients",
-        "Built portfolio of 10+ successful projects",
-      ],
-      technologies: ["Full Stack", "Android", "Firebase", "React"],
-    },
+    // {
+    //   title: "Freelance Developer",
+    //   company: "Self-Employed",
+    //   location: "Remote",
+    //   period: "2023 - Present",
+    //   description: [
+    //     "Developed custom mobile and web solutions for local businesses",
+    //     "Managed complete project lifecycle from requirements to deployment",
+    //     "Provided technical consultation and support to clients",
+    //     "Built portfolio of 10+ successful projects",
+    //   ],
+    //   technologies: ["Full Stack", "Android", "Firebase", "React"],
+    // },
   ];
 
   return (

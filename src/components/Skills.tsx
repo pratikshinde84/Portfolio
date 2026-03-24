@@ -10,6 +10,7 @@ const Skills = () => {
         { name: "JavaScript", level: 85 },
         { name: "React", level: 80 },
         { name: "Tailwind CSS", level: 85 },
+        { name: "XML", level: 90 },
       ],
     },
     {
@@ -17,8 +18,8 @@ const Skills = () => {
       title: "Backend & Databases",
       skills: [
         { name: "Node.js", level: 75 },
-        { name: "Express.js", level: 70 },
         { name: "Firebase", level: 80 },
+        { name: "Spring Boot", level: 80 },
         { name: "MongoDB", level: 75 },
         { name: "MySQL", level: 70 },
       ],
@@ -28,7 +29,7 @@ const Skills = () => {
       title: "Tools & Technologies",
       skills: [
         { name: "Git & GitHub", level: 85 },
-        { name: "VS Code", level: 90 },
+        { name: "Docker", level: 80 },
         { name: "Postman", level: 75 },
         { name: "Android Studio", level: 80 },
       ],
@@ -41,6 +42,40 @@ const Skills = () => {
         { name: "C/C++", level: 80 },
         { name: "Python", level: 75 },
         { name: "JavaScript", level: 85 },
+        { name: "Flutter", level: 85 },
+      ],
+    },
+    {
+      icon: BookOpen,
+      title: "CourseWork",
+      skills: [
+        { name: "Operating Systems", level: 90 },
+        { name: "Computer Networks", level: 75 },
+        { name: "Computer Organization", level: 80 },
+        { name: "System Design", level: 85 },
+        { name: "Blockchain", level: 85 },
+      ],
+    },
+    {
+      icon: BookOpen,
+      title: "Machine Learning",
+      skills: [
+        { name: "Python", level: 90 },
+        { name: "Numpy", level: 75 },
+        { name: "Pandas", level: 70 },
+        { name: "Scikit-learn", level: 65 },
+        { name: "TensorFlow", level: 60 },
+      ],
+    },
+    {
+      icon: BookOpen,
+      title: "Other skills",
+      skills: [
+        { name: "Problem solving", level: 90 },
+        { name: "Collaborative teamwork", level: 90 },
+        { name: "Leadership", level: 90 },
+        { name: "Communication", level: 75 },
+        { name: "Data Structures", level: 85 },
       ],
     },
   ];

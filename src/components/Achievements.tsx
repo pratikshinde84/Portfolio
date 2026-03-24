@@ -3,18 +3,18 @@ import { Trophy, Award, Medal, Star } from "lucide-react";
 const Achievements = () => {
   const achievements = [
     {
-      icon: Trophy,
-      title: "Hackathon Winner",
-      event: "College Tech Fest 2024",
-      description: "First place for innovative mobile app solution",
-      date: "March 2024",
+      icon: Star,
+      title: "Vice President, Tech Club",
+      event: "Hackit - Club",
+      description: "Technical club at SGGSIE&T Nanded",
+      date: "2025-2026",
     },
     {
       icon: Medal,
-      title: "Coding Competition",
-      event: "HackerRank Challenge",
-      description: "Top 100 ranking in Data Structures competition",
-      date: "February 2024",
+      title: "GATE Qualified",
+      event: "Graduate Aptitude Test in Engineering",
+      description: "Qualified in GATE 2026 from Computer Science",
+      date: "March 2026",
     },
     {
       icon: Award,
@@ -25,24 +25,24 @@ const Achievements = () => {
     },
     {
       icon: Star,
-      title: "Open Source Contributor",
-      event: "GitHub Contributions",
-      description: "50+ contributions to various open-source projects",
-      date: "2023-2024",
-    },
-    {
-      icon: Trophy,
-      title: "Smart India Hackathon",
-      event: "National Level Competition",
-      description: "Finalist in Software Edition",
-      date: "August 2023",
+      title: "Technical Lead, ITSA",
+      event: "Information Technology Student Association",
+      description: "Organized workshops and coding competitions for IT students at SGGSIE&T",
+      date: "2025-2026",
     },
     {
       icon: Medal,
-      title: "CodeChef Rating",
-      event: "Competitive Programming",
-      description: "Achieved 4-star rating on CodeChef",
-      date: "2023",
+      title: "HackHound 3.0 finalist",
+      event: "National Level Hackathon",
+      description: "SRM Institute of Science and Technology, Gaziabad",
+      date: "Feb 2025",
+    },
+    {
+      icon: Medal,
+      title: "Reckon 6.0 Finalist",
+      event: "National Level Hackathon",
+      description: "Jodhpur Institute of Engineering and Technology",
+      date: "April 2025",
     },
   ];
 
@@ -88,12 +88,12 @@ const Achievements = () => {
             {[
               "Java Programming",
               "Android Development",
-              "React Fundamentals",
-              "Node.js",
-              "MongoDB",
+              "Glide",
+              "Cryptography",
+              "Docker",
               "Python",
               "Data Structures",
-              "Web Development",
+              "Cybersecurity",
             ].map((cert, index) => (
               <span
                 key={index}

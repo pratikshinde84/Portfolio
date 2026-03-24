@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
+import {  Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
 import { toast } from "sonner";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -26,20 +26,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "pratik216029@gmail.com",
+      href: "mailto:pratik216029@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXXX",
+      value: "+91 92848 46391",
+      href: "tel:+919284846391",
     },
+     
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, India",
-      href: "#",
+      value: "Parbhani, India",
+      href: "https://maps.app.goo.gl/62HjE9VM4dyffPEG8",
     },
   ];
 
@@ -47,19 +48,25 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/pratikshinde84",
       color: "hover:text-[#333]",
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/pratik-shinde-2803612ab/",
       color: "hover:text-[#0077B5]",
     },
     {
+      icon: SiLeetcode,
+      name: "LeetCode",
+      href: "https://leetcode.com/u/Pratik_Shinde_84/",
+      color: "hover:text-[#FFA116]",
+    }, 
+    {
       icon: Mail,
       name: "Email",
-      href: "mailto:your.email@example.com",
+      href: "mailto:pratik216029@gmail.com",
       color: "hover:text-primary",
     },
   ];
@@ -129,7 +136,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-300"
-                  placeholder="John Doe"
+                  placeholder="Rahul Ambhore"
                 />
               </div>
 
@@ -145,7 +152,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg bg-secondary border border-border focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all duration-300"
-                  placeholder="john@example.com"
+                  placeholder="rahul@example.com"
                 />
               </div>
 

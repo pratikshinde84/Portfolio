@@ -3,44 +3,43 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Mobile App",
+      title: "Virtual Server",
       description:
-        "Full-featured Android e-commerce application with Firebase backend, real-time inventory, and secure payment integration.",
-      tech: ["Android", "Java", "Firebase", "Material Design"],
-      github: "https://github.com",
-      image: "🛒",
+        "QuickConnectEase is a native Android app built using Java and XML that enables secure SSH-based remote connections to Ubuntu servers over LAN and the internet, simplifying server access through an intuitive user interface.",
+      tech: ["Android", "Java", "Firebase", "Networking"],
+      github: "https://github.com/pratikshinde84/Quick-Connect-Ease",
+      image: "🖥️",
     },
     {
-      title: "Task Management Web App",
+      title: "Expense Tracker App",
       description:
-        "Responsive web application for task and project management with drag-and-drop interface and real-time collaboration.",
-      tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-      github: "https://github.com",
-      image: "📋",
+        "An Android app that automatically detects and extracts debit transactions from SMS across multiple bank formats, handling incomplete data and displaying structured records for easy expense tracking.",
+      tech: ["Android", "Java", "Firebase", "SharedPreferences"],
+      github: "https://github.com/pratikshinde84/Track-Mate-Pratik/tree/master",
+      image: "💰",
     },
     {
-      title: "Weather Forecast App",
-      description:
-        "Android weather application with location services, 7-day forecasts, and beautiful weather animations.",
-      tech: ["Android", "Java", "REST API", "XML"],
-      github: "https://github.com",
-      image: "🌤️",
+      title: "Sponsify",
+      description:"A social media–based Android application that connects sponsors with event management teams, allowing organizers to post events and enabling sponsors to discover and fund relevant opportunities.",
+      tech: ["Android", "Java", "REST API", "Firebase"],
+      github: "https://github.com/pratikshinde84/SPONSI-FY",
+      image: "🤝",
     },
     {
-      title: "Social Media Dashboard",
+      title: "Worker-Hub",
       description:
-        "Analytics dashboard for social media metrics with interactive charts and real-time data visualization.",
-      tech: ["React", "Express.js", "MySQL", "Chart.js"],
-      github: "https://github.com",
-      image: "📊",
+        "A platform that connects workers with people seeking services, allowing workers to register their skills and enabling users to find suitable workers through search and filter-based discovery.",
+      tech: ["Android", "Github", "Firebase", "Docker"],
+      github: "https://github.com/pratikshinde84/Worker-Hub",
+      image: "👷",
     },
     {
-      title: "Chat Application",
+      title: "Mediloon",
       description:
-        "Real-time chat application with group messaging, file sharing, and end-to-end encryption.",
-      tech: ["React", "Socket.io", "Node.js", "MongoDB"],
-      github: "https://github.com",
-      image: "💬",
+        "An AI-powered web application that enables users to order medicines through a conversational interface using natural language processing, fuzzy search, and multi-turn interactions, combined with a full-stack e-commerce system.",
+      tech: ["Python", "Postgres", "FastAPI", "Docker"],
+      github: "https://github.com/pratikshinde84/mediloon-backend/tree/main",
+      image: "💊",
     },
     {
       title: "Fitness Tracker",
@@ -104,15 +103,7 @@ const Projects = () => {
                   <Github size={20} />
                   <span>Code</span>
                 </a>
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-foreground hover:text-primary transition-colors duration-300"
-                >
-                  <ExternalLink size={20} />
-                  <span>Live</span>
-                </a>
+                
               </div>
             </div>
           ))}
