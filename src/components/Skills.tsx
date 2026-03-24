@@ -1,4 +1,4 @@
-import { Code2, Database, Wrench, BookOpen } from "lucide-react";
+import { Code2, Database, Wrench, BookOpen, Brain, Bot} from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
@@ -17,7 +17,6 @@ const Skills = () => {
       icon: Database,
       title: "Backend & Databases",
       skills: [
-        { name: "Node.js", level: 75 },
         { name: "Firebase", level: 80 },
         { name: "Spring Boot", level: 80 },
         { name: "MongoDB", level: 75 },
@@ -32,10 +31,11 @@ const Skills = () => {
         { name: "Docker", level: 80 },
         { name: "Postman", level: 75 },
         { name: "Android Studio", level: 80 },
+        { name: "Kafka", level: 85 },
       ],
     },
     {
-      icon: BookOpen,
+      icon: Bot,
       title: "Programming Languages",
       skills: [
         { name: "Java", level: 90 },
@@ -57,7 +57,7 @@ const Skills = () => {
       ],
     },
     {
-      icon: BookOpen,
+      icon: Brain,
       title: "Machine Learning",
       skills: [
         { name: "Python", level: 90 },

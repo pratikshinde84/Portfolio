@@ -42,12 +42,12 @@ const Projects = () => {
       image: "💊",
     },
     {
-      title: "Fitness Tracker",
+      title: "Handwritten Digit Recognition",
       description:
-        "Android fitness tracking app with workout plans, calorie counter, and progress tracking features.",
-      tech: ["Android", "Kotlin", "SQLite", "Material Design"],
-      github: "https://github.com",
-      image: "💪",
+        "A deep learning project that uses a Convolutional Neural Network (CNN) to accurately recognize handwritten digits (0–9) from images using the MNIST dataset, implemented with PyTorch and OpenCV.",
+      tech: ["Python", "PyTorch", "OpenCV", "Keras"],
+      github: "https://github.com/pratikshinde84/handwritten_digit_recognition",
+      image: "✍️",
     },
   ];
 

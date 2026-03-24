@@ -18,10 +18,10 @@ const Achievements = () => {
     },
     {
       icon: Award,
-      title: "Android Developer Certification",
-      event: "Google Associate Certification",
-      description: "Successfully completed Android development certification",
-      date: "January 2024",
+      title: "Solved 500+ DSA Problems",
+      event: "LeetCode",
+      description: "Completed 500+ data structures and algorithms problems on LeetCode",
+      date: "March 2026",
     },
     {
       icon: Star,
