@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
-  const skills = ["App Developer", "Full Stack Developer", "Java Expert"];
+  const skills = ["App Developer", "Full Stack Developer", "Java Developer"];
   const [skillIndex, setSkillIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
